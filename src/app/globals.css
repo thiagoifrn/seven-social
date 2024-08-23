@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+.cl-internal-1p733cp {
+  gap: 8px;
+}
+.cl-internal-w8uam1 {
+  gap: 8px;
+}
+.cl-internal-tgducu {
+  gap: 16px;
+}
+
+.cl-internal-4x6jej > :not(:first-of-type) {
+  padding: 10px 0.75rem;
+}
