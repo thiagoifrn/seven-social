@@ -14,7 +14,7 @@ const Comments = async () => {
         <form className="flex-1 flex items-center justify-between bg-slate-100 rounded-xl text-sm px-6 py-2 w-full">
           <input
             type="text"
-            placeholder="Write a comment..."
+            placeholder="Escreva um comentário..."
             className="bg-transparent outline-none flex-1"
           />
           <Image
@@ -41,7 +41,7 @@ const Comments = async () => {
           />
           {/* DESC */}
           <div className="flex flex-col gap-2 flex-1">
-            <span className="font-medium">Thiago Pereira</span>
+            <span className="font-medium">Luiz Carlos</span>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
               hic asperiores voluptatem aperiam repudiandae consectetur
