@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Ad = ({ size }: { size: "sm" | "md" | "lg" }) => {
   return (
@@ -8,7 +7,13 @@ const Ad = ({ size }: { size: "sm" | "md" | "lg" }) => {
         <div className="flex items-center gap-4">
           <span className="font-medium">Sponsored Ads</span>
         </div>
-        <Image src={"/more.png"} width={16} height={16} alt="" />
+        <Image
+          src={"/more.png"}
+          width={16}
+          height={16}
+          alt=""
+          className="cursor-pointer"
+        />
       </div>
       <div
         className={`flex flex-col mt-4 ${size === "sm" ? "gap-2" : "gap-4"}`}

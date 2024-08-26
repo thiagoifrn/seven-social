@@ -16,7 +16,13 @@ const Post = () => {
           />
           <span className="font-medium">Thiago Pereira</span>
         </div>
-        <Image src={"/more.png"} width={16} height={16} alt="" />
+        <Image
+          src={"/more.png"}
+          width={16}
+          height={16}
+          alt=""
+          className="cursor-pointer"
+        />
       </div>
       {/* DESC */}
       <div className="flex items-center flex-col gap-4">
